@@ -32,7 +32,7 @@ async function getData(){
                     end:new Date(data[key].end).getTime(),
                     notification_date:item.notification_date*1000
                    }
-                   datares.push(obj);
+                   console.log(obj)
                 });
               }
               

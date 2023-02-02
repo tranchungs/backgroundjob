@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const JobRouter = require('./Job/job')
-const PORT = process.env.PORT || 6945;
+const PORT = 7454;
 
 
 const app = express();
